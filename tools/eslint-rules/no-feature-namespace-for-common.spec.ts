@@ -25,7 +25,7 @@ tester.run('no-feature-namespace-for-common', rule, {
       errors: [{messageId: 'useCommon'}],
     },
     {
-      code: `const t = useTranslations('admin.tours'); t('save');`,
+      code: `const t = useTranslations('admin.posts'); t('save');`,
       errors: [{messageId: 'useCommon'}],
     },
   ],
